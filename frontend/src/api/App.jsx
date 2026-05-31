@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import LiveAlerts from "./components/LiveAlerts";
-import { getDisasters } from "./api/disasterService";
+import { getDisasters } from "./disasterService";
 import socket from "./socket";
 
 function App() {
