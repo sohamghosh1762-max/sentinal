@@ -983,9 +983,46 @@ footer{
     transform:translateY(-200px);
   }
 }
+
+.logout-btn{
+
+  background:rgba(255,0,0,.15);
+
+  border:1px solid rgba(255,0,0,.4);
+
+  color:#fff;
+
+  padding:10px 20px;
+
+  border-radius:10px;
+
+  cursor:pointer;
+
+  font-weight:700;
+
+  transition:.3s;
+
+}
+
+.logout-btn:hover{
+
+  background:rgba(255,0,0,.3);
+
+  box-shadow:0 0 20px rgba(255,0,0,.6);
+
+  transform:translateY(-2px);
+
+}
+
 </style>
 </head>
 <body>
+
+  <script>
+if(!sessionStorage.getItem("authenticated")){
+    window.location.href = "login.html";
+}
+</script>
 
 <div class="danger-overlay"></div>
 <div class="warning-flash"></div>
@@ -1018,6 +1055,9 @@ footer{
     <div class="nav-dot"></div>
     SYSTEM CRITICAL
   </div>
+  <button class="logout-btn" onclick="logout()">
+   LOGOUT
+</button>
 </nav>
 
 <!-- ══════════════════════════════
@@ -1705,6 +1745,13 @@ document.querySelectorAll('.ai-card,.fcard,.wf-card').forEach(el=>{
   el.style.transition='opacity .7s ease, transform .7s ease';
   observer.observe(el);
 });
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') {
+    document.getElementById('loginBtn').click();
+  }
+});
+
 </script>
 <div class="danger-overlay"></div>
 
@@ -1715,5 +1762,18 @@ document.querySelectorAll('.ai-card,.fcard,.wf-card').forEach(el=>{
 <audio autoplay loop id="siren">
   <source src="/sounds/siren.mp3" type="audio/mpeg">
 </audio>
+
+<script>
+
+function logout(){
+
+   sessionStorage.removeItem("authenticated");
+
+   window.location.href = "login.html";
+
+}
+
+</script>
+
 </body>
 </html>

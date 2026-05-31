@@ -1,176 +1,269 @@
-# 🚨 SENTIENT SENTINEL
-## 🌍 AI Emergency Rescue & Disaster Intelligence System
+# 🚨 Sentient Sentinel
 
-<div align="center">
+### AI-Powered Emergency Rescue & Disaster Intelligence System
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjB3NzV3bGQ3cTZ4YW5wdzR3NmF1a2I5cHV5d2NxMnlyMXBhaWh0MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o6ZsX2OZJ8G3Tec6Y/giphy.gif" width="100%"/>
-
-# 🔥 GLOBAL THREAT DETECTION ACTIVE
-
-<img src="https://img.shields.io/badge/SYSTEM-ACTIVE-red?style=for-the-badge&logo=target"/>
-<img src="https://img.shields.io/badge/AI-MONITORING-orange?style=for-the-badge&logo=openai"/>
-<img src="https://img.shields.io/badge/STATUS-CRITICAL-darkred?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/RESCUE-NETWORK-blue?style=for-the-badge"/>
-
-</div>
+Sentient Sentinel is an advanced AI-driven disaster monitoring and emergency response platform designed to detect, analyze, and manage critical disaster events in real time. The system combines artificial intelligence, live alerting, geospatial intelligence, drone coordination, and emergency communication services to support rapid disaster response and decision-making.
 
 ---
 
-# 🌌 OVERVIEW
+## 📖 Project Overview
 
-**Sentient Sentinel** is a next-generation AI-powered disaster intelligence and emergency rescue platform designed to monitor catastrophic global events in real time.
+Natural disasters such as wildfires, floods, earthquakes, and severe storms cause significant damage to infrastructure, ecosystems, and human lives. Traditional emergency management systems often suffer from delayed information flow and limited situational awareness.
 
-The system combines:
+Sentient Sentinel addresses these challenges by providing a centralized disaster intelligence platform capable of:
 
-- 🌍 Live Disaster Intelligence
-- 🚨 Emergency Broadcast Systems
-- 🚁 AI Drone Rescue Coordination
-- 🛰️ Satellite Surveillance
-- 🌊 Flood Detection
-- 🔥 Wildfire Tracking
-- 🌪️ Cyclone Monitoring
-- ⚡ Realtime Socket.IO Communication
-- 🧠 AI Threat Prediction
+- Monitoring active disasters
+- Generating real-time alerts
+- Supporting emergency response operations
+- Coordinating rescue resources
+- Visualizing disaster information through an interactive dashboard
 
 ---
 
-# 🎬 LIVE DISASTER TYPES
+## 🎯 Key Features
 
-<div align="center">
+### 🔥 Disaster Detection & Monitoring
+- Wildfire tracking
+- Flood monitoring
+- Earthquake reporting
+- Storm and cyclone surveillance
+- Multi-disaster intelligence dashboard
 
-| DISASTER | STATUS | THREAT LEVEL |
-|---|---|---|
-| 🔥 WILDFIRE | ACTIVE | EXTREME |
-| 🌊 FLOOD | CRITICAL | HIGH |
-| 🌪️ CYCLONE | DETECTED | SEVERE |
-| 🌍 EARTHQUAKE | ACTIVE | DANGEROUS |
-| ☢️ NUCLEAR THREAT | MONITORING | MAXIMUM |
-| 🛰️ SATELLITE FAILURE | DETECTED | HIGH |
-| 🚁 RESCUE DEPLOYMENT | ACTIVE | OPERATIONAL |
-| ⚠️ GLOBAL ALERT | LIVE | RED ZONE |
+### 🚨 Emergency Alert System
+- Real-time alert generation
+- Emergency notification broadcasting
+- SOS reporting and management
+- Live incident tracking
 
-</div>
+### 🚁 AI Rescue Coordination
+- Drone deployment monitoring
+- Rescue mission management
+- Emergency resource allocation
+- Response unit tracking
 
----
+### 🛰️ Geospatial Intelligence
+- Disaster location mapping
+- Risk zone identification
+- Satellite monitoring integration
+- Geographic incident visualization
 
-# 🔥 DISASTER ANIMATION ZONE
-
-<div align="center">
-
-<img src="https://media.giphy.com/media/26BRuo6sLetdllPAQ/giphy.gif" width="48%"/>
-
-<img src="https://media.giphy.com/media/l0HlNQ03J5JxX6lva/giphy.gif" width="48%"/>
-
-<img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="48%"/>
-
-<img src="https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif" width="48%"/>
-
-</div>
-
----
-
-# 🚨 REALTIME EMERGENCY FEATURES
-
-## 🔥 Wildfire Detection
-- AI wildfire analysis
-- Smoke tracking
-- Heat zone prediction
-- Rescue deployment
+### ⚡ Real-Time Communication
+- Socket.IO-based live updates
+- Instant alert synchronization
+- Live status monitoring
+- Dynamic dashboard refresh
 
 ---
 
-## 🌊 Flood Monitoring
-- Rising water analytics
-- Satellite flood mapping
-- Rescue boat coordination
-- Evacuation systems
+## 🏗️ System Architecture
+
+```text
+Disaster Events
+       │
+       ▼
+AI Analysis Engine
+       │
+ ┌─────┴─────┐
+ ▼           ▼
+MongoDB   Socket.IO
+Database  Real-Time Layer
+       │
+       ▼
+Emergency Dashboard
+       │
+       ▼
+Rescue Operations & Alerts
+```
 
 ---
 
-## 🌍 Earthquake Intelligence
-- Seismic detection
-- Emergency zone alerts
-- Building damage analysis
-- AI threat calculation
+## 🛠️ Technology Stack
+
+### Frontend
+- React.js
+- Vite
+- HTML5
+- CSS3
+- JavaScript
+
+### Backend
+- Node.js
+- Express.js
+- Socket.IO
+- MongoDB
+- Mongoose
+
+### Cloud & Communication
+- Cloudinary
+- Twilio
+- Nodemailer
+- Redis
+
+### Development Tools
+- Git
+- GitHub
+- VS Code
+- Postman
 
 ---
 
-## 🌪️ Storm & Cyclone Tracking
-- Weather intelligence
-- Wind velocity tracking
-- Emergency warnings
-- Real-time radar monitoring
+## 📂 Project Structure
+
+```text
+sentient-sentinel/
+│
+├── frontend/
+│   ├── src/
+│   ├── assets/
+│   ├── public/
+│   ├── login.html
+│   └── index.html
+│
+├── backend/
+│   ├── routes/
+│   ├── services/
+│   ├── sockets/
+│   ├── uploads/
+│   ├── utils/
+│   ├── server.js
+│   └── package.json
+│
+└── README.md
+```
 
 ---
 
-# 🌍 GLOBAL COMMAND CENTER
+## 🚀 Installation
 
-<div align="center">
+### Clone Repository
 
-<img src="https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif" width="100%"/>
+```bash
+git clone https://github.com/your-username/sentient-sentinel.git
+```
 
-</div>
+### Frontend Setup
 
----
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
-# ⚡ TECHNOLOGY STACK
+### Backend Setup
 
-# 🎨 FRONTEND
-
-| Technology | Purpose |
-|---|---|
-| React.js | Frontend Framework |
-| Vite | High-Speed Development |
-| CSS3 | Cinematic UI Effects |
-| GSAP | Motion Animation |
-| Framer Motion | Realtime Motion |
-| Mapbox GL | Global Disaster Mapping |
-
----
-
-# 🚀 BACKEND
-
-| Technology | Purpose |
-|---|---|
-| Node.js | Backend Runtime |
-| Express.js | API Server |
-| Socket.IO | Live Communication |
-| MongoDB | Disaster Database |
-| Mongoose | Database Modeling |
+```bash
+cd backend
+npm install
+npm run dev
+```
 
 ---
 
-# ☁️ CLOUD SERVICES
+## ⚙️ Environment Variables
 
-| Technology | Purpose |
-|---|---|
-| Cloudinary | Media Storage |
-| Twilio | Emergency SMS |
-| Nodemailer | Email Broadcasting |
-| Redis | Live Caching |
+Create a `.env` file inside the backend folder:
+
+```env
+PORT=5000
+
+MONGO_URI=your_mongodb_connection_string
+
+JWT_SECRET=your_secret_key
+
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+
+TWILIO_ACCOUNT_SID=your_sid
+TWILIO_AUTH_TOKEN=your_token
+
+EMAIL_USER=your_email
+EMAIL_PASS=your_password
+```
 
 ---
 
-# 🌍 SYSTEM ARCHITECTURE
+## 🔗 API Endpoints
 
-```txt
-┌────────────────────────────┐
-│  GLOBAL DISASTER EVENTS    │
-└─────────────┬──────────────┘
-              │
-              ▼
-┌────────────────────────────┐
-│ SENTIENT SENTINEL AI CORE  │
-│ REALTIME INTELLIGENCE HUB  │
-└─────────────┬──────────────┘
-              │
-     ┌────────┴────────┐
-     ▼                 ▼
-┌────────────┐  ┌─────────────┐
-│ MongoDB    │  │ Socket.IO   │
-└─────┬──────┘  └─────┬───────┘
-      │               │
-      ▼               ▼
-┌──────────────┐ ┌──────────────┐
-│ React Client │ │ Alert System │
-└──────────────┘ └──────────────┘
+### Disaster Management
+
+| Method | Endpoint | Description |
+|----------|------------|------------|
+| POST | /api/disasters/create | Create disaster |
+| GET | /api/disasters | Fetch disasters |
+| GET | /api/disasters/:id | Get disaster details |
+
+### SOS Management
+
+| Method | Endpoint | Description |
+|----------|------------|------------|
+| POST | /api/sos/create | Create SOS request |
+| GET | /api/sos | Get SOS reports |
+
+### Alerts
+
+| Method | Endpoint | Description |
+|----------|------------|------------|
+| GET | /api/alerts | Fetch active alerts |
+| POST | /api/alerts/create | Generate alert |
+
+---
+
+## 📸 Screenshots
+
+Add screenshots here:
+
+### Login Dashboard
+
+```md
+![Login Dashboard](screenshots/login-dashboard.png)
+```
+
+### Disaster Monitoring Dashboard
+
+```md
+![Disaster Dashboard](screenshots/disaster-dashboard.png)
+```
+
+### Emergency Operations Center
+
+```md
+![Operations Center](screenshots/operations-center.png)
+```
+
+---
+
+## 🔮 Future Enhancements
+
+- AI-powered disaster prediction
+- Satellite image analysis
+- Autonomous rescue drone integration
+- Mobile emergency response application
+- Voice-based emergency assistance
+- Predictive evacuation planning
+- Machine learning risk assessment
+- Real-time weather intelligence
+
+---
+
+
+## ⭐ Support
+
+If you found this project useful:
+
+- ⭐ Star the repository
+- 🍴 Fork the project
+- 🚀 Contribute improvements
+- 📢 Share with others
+
+---
+
+## 🌍 Vision
+
+> "Empowering emergency response through artificial intelligence, real-time intelligence, and rapid disaster coordination."
+
+---
+
+### 🚨 SENTIENT SENTINEL
+
+**AI-Powered Emergency Rescue & Disaster Intelligence System**
